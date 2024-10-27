@@ -94,8 +94,8 @@ function displayProducts() {
         </div>
       </div>
     </div>`);
-    productContainer.innerHTML = htmlTemplate.join('');
   });
+  productContainer.innerHTML = htmlTemplate.join('');
 }
 
 // Call the function to display products
