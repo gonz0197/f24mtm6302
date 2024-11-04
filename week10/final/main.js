@@ -100,8 +100,8 @@ function renderProducts() {
             >
             ${Object.entries(product.fabrics)
               .map(
-                ([fabric, price]) =>
-                  `<option value="${fabric}">${fabric} - $${price}</option>`
+                (entry) =>
+                  `<option value="${entry[0]}">${entry[0]} - $${entry[1]}</option>`
               )
               .join('')}
           </select>
