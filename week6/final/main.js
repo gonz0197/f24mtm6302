@@ -82,7 +82,7 @@ function displayCart() {
 
 // 7. Remove a Product from the Cart by index
 /*
-function removeFromCartByProduct(index) {
+function removeFromCartByIndex(index) {
     // Remove an element from the cart array by its index
     cart.splice((index - 1), 1)
     // Refresh the cart display to reflect the changes
